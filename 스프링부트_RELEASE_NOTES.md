@@ -12,7 +12,20 @@
 [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog)   
 
 
-# 변경 사항
+스프링 공식 페이지에서는 주요 변경 사항을 아래와 같이 소개한다. 
+
+- A Java 8 baseline, and Java 9 support.
+- Reactive web programming support with Spring WebFlux/WebFlux.fn.
+- Auto-configuration and starter POMs for reactive Spring Data Cassandra, MongoDB, Couchbase and Redis.
+- Support for embedded Netty.
+- HTTP/2 for Tomcat, Undertow and Jetty.
+- Kotlin support.
+- A brand new actuator architecture, with support for Spring MVC, WebFlux and Jersey.
+- Micrometer based metrics with exporters for Atlas, Datadog, Ganglia, Graphite, Influx, JMX, New Relic, Prometheus, SignalFx, StatsD and Wavefront.
+- Quartz scheduler support.
+- Greatly simplified security auto-configuration.
+
+# 스프링 부트 2.0 변경 사항
 
 ## Java 8 이상 버전만 지원
 최소 자바8 을 사용해야 한다. 현재 프로젝트가 자바7 이라면, JDK 업그레이드를 해야만 스프링 부트 2.0 을 사용할 수 있다. 
