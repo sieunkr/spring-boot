@@ -10,6 +10,7 @@
 [https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/)  
 [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes)  
 [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog)   
+[http://www.baeldung.com/new-spring-boot-2](http://www.baeldung.com/new-spring-boot-2)  
 
 
 스프링 공식 페이지에서는 주요 변경 사항을 아래와 같이 소개한다. 
