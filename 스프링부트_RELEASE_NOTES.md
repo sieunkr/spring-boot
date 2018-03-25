@@ -6,6 +6,7 @@
 
 > 잘못된 부분이 있다면 피드백 부탁드립니다. 
 
+[https://spring.io/blog/2018/03/01/spring-boot-2-0-goes-ga](https://spring.io/blog/2018/03/01/spring-boot-2-0-goes-ga)
 [https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/)
 [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes)
 [https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Configuration-Changelog) 
