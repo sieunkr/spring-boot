@@ -87,6 +87,32 @@ Gradle 플러그인이 많이 변경되었는데, 최소 Gradle 4.X 이상 버�
 [https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-kotlin](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-kotlin)
 
 ## Actuator 개선
+내용이 많아서... 일단 아래 링크로 확인하자. 
+[https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/actuator-api/html/](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/actuator-api/html/)
+
+## Data Support
+데이터 관련 변경 사항
+
+#### 커넥션 풀
+부트 2.0에서 기본 데이터베이스 커넥션 풀이 톰캣에서 HikariCP 로 변경 되었다. HikariCP 는 매우 뛰어난 성능과 속도를 제공한다고 한다. 
+
+#### 데이터베이스 스키마 초기화
+데이터베이스 초기화 로직이 계층화(?) 되었다. 스프링 배치, Spring Integration, 스프링 세션, 쿼츠 등 임베디드 DB 를 사용하는 경우에만 기본으로 제공한다. 
+
+```java
+//예
+spring.quartz.jdbc.schema=always
+spring.batch.initialize-schema=always
+spring.session.jdbc.initialize-schema
+... 
+//등등
+```
+
+#### JOOQ (주크?)
 
 
-작성 중...
+## Quartz (쿼츠)
+쿼츠 스케쥴러 라이브러리에 대한 스타터를 제공한다. 
+[https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-quartz](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-quartz)
+
+
