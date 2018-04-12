@@ -1,3 +1,5 @@
+
+
 # 스프링 부트 2.0 Release
 
 
@@ -183,38 +185,26 @@ https://docs.spring.io/spring-boot/docs/current/gradle-plugin/api/org/springfram
 
 
 
-
-
 ## 코틀린 지원
+디펜던시로 org.jetbrains.kotlin:kotlin-stdlib-jdk8 , org.jetbrains.kotlin:kotlin-reflect 등을 추가해야 한다. 자세한 설정은 아래 링크를 통해서 참고하자. 
+https://start.spring.io/#!language=kotlin
+
+
+상세한 내용은 생략한다. 레퍼런스 문서를 참고하자 
 [https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-kotlin](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-kotlin)
 
 [https://docs.spring.io/spring/docs/5.0.5.RELEASE/spring-framework-reference/languages.html#kotlin](https://docs.spring.io/spring/docs/5.0.5.RELEASE/spring-framework-reference/languages.html#kotlin)
 
-
-
-2018.04.11
-문서 정리 중..
-
-
-
-
-
-
-
-
-
 ## Actuator 개선
-내용이 많아서... 일단 아래 링크로 확인하자. 
 [https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/actuator-api/html/](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/actuator-api/html/)
 
 ## Data Support
-데이터 관련 변경 사항
 
 #### 커넥션 풀
 부트 2.0에서 기본 데이터베이스 커넥션 풀이 톰캣에서 HikariCP 로 변경 되었다. HikariCP 는 매우 뛰어난 성능과 속도를 제공한다고 한다. 
 
 #### 데이터베이스 스키마 초기화
-데이터베이스 초기화 로직이 계층화(?) 되었다. 스프링 배치, Spring Integration, 스프링 세션, 쿼츠 등 임베디드 DB 를 사용하는 경우에만 기본으로 제공한다. 
+데이터베이스 초기화 로직이 계층화되었다. 스프링 배치, Spring Integration, 스프링 세션, 쿼츠 등 임베디드 DB 를 사용하는 경우에만 기본으로 제공한다. 
 
 ```java
 //예
@@ -225,11 +215,17 @@ spring.session.jdbc.initialize-schema
 //등등
 ```
 
-#### JOOQ (주크?)
+#### JOOQ
+생략
+
 
 
 ## Quartz (쿼츠)
 쿼츠 스케쥴러 라이브러리에 대한 스타터를 제공한다. 
 [https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-quartz](https://docs.spring.io/spring-boot/docs/2.0.x-SNAPSHOT/reference/htmlsingle/#boot-features-quartz)
 
+
+## Animated ASCII Art
+마지막으로, 중요한 내용은 아니지만 스프링 부트 실행시에 GIF 배너를 표현할 수 있다. 
+https://github.com/snicoll-demos/demo-animated-banner
 
